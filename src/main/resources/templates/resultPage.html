@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<script src="/webjars/jquery/2.1.4/jquery.js"></script>
+
+<head lang="pl">
+    <meta charset="UTF-8"/>
+    <title>Witaj w Thymeleaf!</title>
+</head>
+<body>
+    <ul>
+        <li th:each="${tweets}" th:text="${tweet}">Witaj!>Jakis tweet</li>
+    </ul>
+</body>
+</html>
